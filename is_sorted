@@ -1,0 +1,10 @@
+is_sorted([]).
+is_sorted([_]).
+is_sorted([X,Y|T]):-X<=Y,is_sorted([Y|T]).
+
+
+
+
+
+output
+is_sorted([2,5,3,4]).
