@@ -1,0 +1,13 @@
+sumlist([],0).
+sumlist([_|T],N):_sumlist(T,N1),N is N1+H.
+
+
+
+
+
+
+
+
+output
+?sumlist([1,2,3,4,5],N).
+ans 15.
